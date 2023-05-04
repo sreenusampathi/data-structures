@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int math,eng;
+	float per;
+	printf("enter the marks");
+	scanf("%d%d",&math,&eng);
+	per=math+eng/2.0;
+	if(per>90)
+	printf("a grade");
+	if (per>80)
+	printf("b grade");
+	else
+	printf("fail");
+	return 0;
+}
